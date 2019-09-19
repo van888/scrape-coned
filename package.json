@@ -1,0 +1,29 @@
+{
+  "name": "scrape-coned",
+  "version": "1.0.0",
+  "description": "Get Coned Outages and store in Mongo",
+  "main": "app-coned.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/van888/scrape-coned.git"
+  },
+  "author": "Van Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/van888/scrape-coned/issues"
+  },
+  "homepage": "https://github.com/van888/scrape-coned#readme"
+}
